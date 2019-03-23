@@ -1,1 +1,2 @@
-﻿Get-ComputerInfo
+﻿####computer information##############
+ Get-ComputerInfo
