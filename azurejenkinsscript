@@ -16,7 +16,7 @@ node {
      def resourceGroup = 'test1jenkins'  
     
      // login Azure 
-     withCredentials([azureServicePrincipal('18a23a03-7914-4a1a-9b67-ba14f667bdd2')]) { 
+     withCredentials([azureServicePrincipal('2d8c850e-66e5-4521-ae0c-44b1e0fb1e80')]) { 
        ansiblePlaybook installation: 'ansible', 
       playbook: 'vamyaml.yaml' 
      } 
